@@ -54,6 +54,8 @@ if __name__ == "__main__":
     rec.login(contractId,authId,password)
     if len(arg) >= 2:
         memo = " ".join(arg[1:])
+    else:
+        memo = ""
     if arg[0] == "in":
         rec.in_(memo=memo) #出勤
     elif arg[0] == "out":
