@@ -8,7 +8,11 @@
 
 ## 設定
 
-- プログラム内に認証情報を入力
+### 実行環境
+- Python3
+- [requests](https://github.com/psf/requests)
+
+### プログラム内に認証情報を入力
 ```python
 contractId="0000000" #契約ID
 authId="id or mail" #IDまたはメールアドレス
